@@ -31,15 +31,4 @@ This is the **backend server** component of the industrial object counting syste
      ⬇
 [Processed Image + Count returned to App]
 
----
-
-## ⚙️ Key Features
-
-- ✅ **JWT-based user authentication** (`OAuth2PasswordBearer`)
-- 📦 **Async image processing** via **RabbitMQ**
-- 📸 **Object detection** using custom **Roboflow** models
-- 🗂 **Image saving** (raw + processed)
-- 🕓 **Request logging** with timestamp, object type, and result
-- 🔐 **Password hashing** with `bcrypt + passlib`
-- 🌍 **External access** via **DuckDNS** and port forwarding
 
